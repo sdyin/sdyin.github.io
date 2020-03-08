@@ -6,10 +6,13 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+文档笔记
 
 ```markdown
-Syntax highlighted code block
+二叉树遍历：
+-前序遍历：先输出当前结点的数据，再依次遍历输出左结点和右结点
+-中序遍历：先遍历输出左结点，再输出当前结点的数据，再遍历输出右结点
+-后序遍历：先遍历输出左结点，再遍历输出右结点，最后输出当前结点的数据
 
 # Header 1
 ## Header 2
