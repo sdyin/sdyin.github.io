@@ -46,6 +46,7 @@ spring事务：
         ①：<!-- 开启暴露Aop代理到ThreadLocal支持  -->  
            <aop:aspectj-autoproxy expose-proxy="true"/>  
            ((类名) AopContext.currentProxy()).方法();  
+        ②：注入Application,调用getBean()方法
 
 **Bold** and _Italic_ and `Code` text
 
