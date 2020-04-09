@@ -38,6 +38,15 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 动态规划(TODO):
 
+
+spring事务：
+    1.获取当前事务名：TransactionSynchronizationManager.getCurrentTransactionName()
+    2.同一类中：a方法调用b方法均是同一事务，除非使用代理类调用b方法，且申明b方法是事务传播属性新建事务。
+        获取当前类代理对象方式
+        ①：<!-- 开启暴露Aop代理到ThreadLocal支持  -->  
+           <aop:aspectj-autoproxy expose-proxy="true"/>  
+           ((类名) AopContext.currentProxy()).方法();  
+
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
